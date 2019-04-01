@@ -26,7 +26,7 @@
       xmlns:local="using:StartFinance.Views"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
       Loaded="Page_Loaded"
-      xmlns:vm="using:StartFinance.ViewModels" mc:Ignorable="d">
+      xmlns:vm="using:StartFinance.ViewModels" mc:Ignorable="d"> 
 
     <Page.DataContext>
         <vm:MainPageViewModel x:Name="ViewModel" />
