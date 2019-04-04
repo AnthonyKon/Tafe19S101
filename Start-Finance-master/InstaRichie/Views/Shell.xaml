@@ -25,7 +25,7 @@
                                Text="DashBoard" />
                 </StackPanel>
             </Controls:HamburgerButtonInfo>
-            
+
             <!--  Transaction List button  -->
             <Controls:HamburgerButtonInfo ClearHistory="True" PageType="views:TransactionListPage" 
                                           AutomationProperties.Name="Jerry"
@@ -71,6 +71,18 @@
                 		Symbol="StopSlideShow" />
                     <TextBlock Margin="12,0,0,0" VerticalAlignment="Center"
                                Text="Assets" />
+                </StackPanel>
+            </Controls:HamburgerButtonInfo>
+
+            <!--  Contact Details button  -->
+            <Controls:HamburgerButtonInfo ClearHistory="True" PageType="views:ContactDetailsPage" 
+                                          AutomationProperties.Name="Jerry"
+                                          >
+                <StackPanel Orientation="Horizontal">
+                    <SymbolIcon Width="48" Height="48"
+                		Symbol="Contact" />
+                    <TextBlock Margin="12,0,0,0" VerticalAlignment="Center"
+                               Text="Contact Details" />
                 </StackPanel>
             </Controls:HamburgerButtonInfo>
 
